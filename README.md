@@ -40,19 +40,19 @@
 > 3. Upload train.csv and test.csv as inputs that the notebook can access
 > 4. Make sure notebook can you use your HuggingFace token key
 > 5. Run each cell block step-by-step 
-  > You can skip some steps depending on if you already have train_compressed.csv or are accessing it through HuggingFace (skip section 2A: Preprocesssing Part 1)
-  > You can also skip some steps if you just want to access model weights and generate outputs (skip section 2, section 4, section 5 and section 6. Uncomment Section 7 and run from there)
+>  - You can skip some steps depending on if you already have train_compressed.csv or are accessing it through HuggingFace (skip section 2A: Preprocesssing Part 1)
+>  - You can also skip some steps if you just want to access model weights and generate outputs (skip section 2, section 4, section 5 and section 6. Uncomment Section 7 and run from there)
 
 ## Instructions for Mini Notebooks based on section 
 > 1. Choose a notebook section (preprocessing, training, inference)
 > 2. Download and access the notebook in its environment
 > 3. Upload necessary inputs that the notebook can access
-  > preprocessing only needs train.csv
-  > training needs train_compressed.csv if you are not accessing public version
-  > inference needs test.csv
+>  - preprocessing only needs train.csv
+>  - training needs train_compressed.csv if you are not accessing public version
+>  - inference needs test.csv
 > 4. Make sure notebook can you use your HuggingFace token key
-  > training needs WRITE HuggingFace Token if you are saving the model to HuggingFace
-  > inference needs HuggingFace Token to access model weight cloud saved in HuggingFace
+>  - training needs WRITE HuggingFace Token if you are saving the model to HuggingFace
+>  - inference needs HuggingFace Token to access model weight cloud saved in HuggingFace
 > 5. Run each cell block step-by-step 
 
 ## **Important**
