@@ -34,17 +34,38 @@
 
 > Here we focus on generating outputs based on given prompts. There are two versions of outputting: single prompt output and batch prompt outputs
 
-### **Important**
+## Instructions (Full Version)
+> 1. Choose a version of the notebook based on your notebook enivornment (Google Colab or Kaggle)
+> 2. Download and access the notebook in its environment
+> 3. Upload train.csv and test.csv as inputs that the notebook can access
+> 4. Make sure notebook can you use your HuggingFace token key
+> 5. Run each cell block step-by-step 
+  > You can skip some steps depending on if you already have train_compressed.csv or are accessing it through HuggingFace (skip section 2A: Preprocesssing Part 1)
+  > You can also skip some steps if you just want to access model weights and generate outputs (skip section 2, section 4, section 5 and section 6. Uncomment Section 7 and run from there)
+
+## Instructions for Mini Notebooks based on section 
+> 1. Choose a notebook section (preprocessing, training, inference)
+> 2. Download and access the notebook in its environment
+> 3. Upload necessary inputs that the notebook can access
+  > preprocessing only needs train.csv
+  > training needs train_compressed.csv if you are not accessing public version
+  > inference needs test.csv
+> 4. Make sure notebook can you use your HuggingFace token key
+  > training needs WRITE HuggingFace Token if you are saving the model to HuggingFace
+  > inference needs HuggingFace Token to access model weight cloud saved in HuggingFace
+> 5. Run each cell block step-by-step 
+
+## **Important**
 > Make sure that train.csv and test.csv is downloaded to upload them as inputs for the notebooks to access! You can also download train_compressed from HuggingFace to skip preprocessing part 1 (train_compressed.csv was created through data compression pipeline and uploaded to HuggingFace as a public dataset for ease of access)
 
 > Have a HuggingFace Token Key for Reading and Writing. Make sure notebook has access to them before running it!
 
-### Misc
+## Misc
 > If you want to see a graph of token distribution in train.csv vs train_compressed.csv, check out the [Submission and Figures Folder](https://github.com/tk2558/Deep-Learning-Text-to-SVG-Generation/tree/main/Submission%20and%20Figures)
 
 > You can also see all the outputs the model generated for 1000 test prompts in [submission.csv](https://github.com/tk2558/Deep-Learning-Text-to-SVG-Generation/blob/main/Submission%20and%20Figures/submission.csv)
 
-### **Links**
+## **Links**
 
 > [Midterm Report in ACL Format](https://drive.google.com/file/d/1urAfCZN6PuFEgmFVQYVjykXzaEXdAuox/view?usp=sharing)
 
