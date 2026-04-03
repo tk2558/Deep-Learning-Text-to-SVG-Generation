@@ -41,6 +41,7 @@
 
 ### Misc
 > If you want to see a graph of token distribution in train.csv vs train_compressed.csv, check out the [Submission and Figures Folder](https://github.com/tk2558/Deep-Learning-Text-to-SVG-Generation/tree/main/Submission%20and%20Figures)
+
 > You can also see all the outputs the model generated for 1000 test prompts in [submission.csv](https://github.com/tk2558/Deep-Learning-Text-to-SVG-Generation/blob/main/Submission%20and%20Figures/submission.csv)
 
 ### **Links**
